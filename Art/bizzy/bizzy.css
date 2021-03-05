@@ -1,0 +1,12 @@
+.container {
+  padding: 10vh 20vw;
+  display: flex;
+  justify-content: center;
+}
+
+.animate__tada {
+  height: 50vh;
+  width: 75vw;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background-color: red;
+}
